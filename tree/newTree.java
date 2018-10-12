@@ -9,5 +9,16 @@ public class newTree
     { 
         key = item; 
         left = right = null; 
-    } 
-} 
+    }
+    public static void printInorder(newTree root)
+    {
+        if(root == null)
+        {
+            return ;
+        }
+        printInorder(root.left) ;
+        System.out.print(root.key + " ") ;
+        printInorder(root.right) ;
+     }
+         
+}  
