@@ -12,6 +12,7 @@ public class newTree
     }
     public static void printInorder(newTree root)
     {
+        
         if(root == null)
         {
             return ;
@@ -20,5 +21,6 @@ public class newTree
         System.out.print(root.key + " ") ;
         printInorder(root.right) ;
      }
+   
          
 }  
