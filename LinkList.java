@@ -15,6 +15,7 @@ class LinkList
         nn.data = val ;
         return nn ;
     }
+    
     public static void insert(int val)
     {
         Node nn = createNode(val) ;
